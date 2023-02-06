@@ -25,11 +25,12 @@
         }
         .auto-style6 {
             text-align: center;
+            height: 40px;
         }
         #btthem{
             margin-left:70px;
         }
-        #lbloi{
+        #lbloi,#lbhoadon{
             margin-left:50px;
             color:red;
         }
@@ -87,19 +88,19 @@
                     </td>
                     <td>Danh sách bánh được đặt:<br />
                         <asp:ListBox ID="lstds" Width="85%" Height="120px"  runat="server" SelectionMode="Multiple"></asp:ListBox>
-                        <asp:ImageButton ID="imgbtxoa" runat="server" ImageUrl="~/img/2.jpg" Width="40px" Height="30px" />
+                        <asp:ImageButton ID="imgbtxoa" runat="server" ImageUrl="~/img/2.jpg" Width="40px" Height="30px" OnClick="imgbtxoa_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" class="auto-style6">
                         <strong>
-                        <asp:Button ID="btdondat" runat="server" Text="In đơn đặt hàng" CssClass="auto-style7" />
+                        <asp:Button ID="btdondat" runat="server" Text="In đơn đặt hàng" CssClass="auto-style7" OnClick="btdondat_Click" />
                         </strong>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <asp:Label ID="lbhoadon" runat="server" Text=""></asp:Label>
+                        <asp:Label ID="lbhoadon" runat="server"></asp:Label>
                     </td>
                 </tr>
             </table>
