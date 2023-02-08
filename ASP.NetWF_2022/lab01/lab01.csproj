@@ -73,8 +73,11 @@
     <Content Include="img\2.jpg" />
     <Content Include="index.aspx" />
     <Content Include="Ngaysinhnhat.aspx" />
+    <Content Include="Panel.aspx" />
     <Content Include="Thongtincanhan.aspx" />
     <Content Include="TinhToan.aspx" />
+    <Content Include="UploadFile.aspx" />
+    <Content Include="ViewUpload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +112,13 @@
     <Compile Include="Ngaysinhnhat.aspx.designer.cs">
       <DependentUpon>Ngaysinhnhat.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Panel.aspx.cs">
+      <DependentUpon>Panel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel.aspx.designer.cs">
+      <DependentUpon>Panel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thongtincanhan.aspx.cs">
       <DependentUpon>Thongtincanhan.aspx</DependentUpon>
@@ -124,9 +134,24 @@
     <Compile Include="TinhToan.aspx.designer.cs">
       <DependentUpon>TinhToan.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadFile.aspx.designer.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUpload.aspx.cs">
+      <DependentUpon>ViewUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewUpload.aspx.designer.cs">
+      <DependentUpon>ViewUpload.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Upload\12_LapTrinhCSDL_Final.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
